@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @media (max-width: 699px) {
+                #submit input{
+                    width: auto;
+                    margin-top: 20%;
+                }
+            }
+            @media (max-width: 399px){
+                #submit input{
+                    width: auto;
+                    margin-top: 20%;
+                    font-size: small;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="images.html">Images</a>
+            <a href="advanced.html">Advanced Search</a>
+        </nav>
+        <div id="all">
+            <img style="margin: 10px; max-width: 250px;" src="google.png" alt="Google logo">
+            <div>
+                <form action="https://www.google.com/search">
+                    <input id="pesquisa" type="text" name="q" autofocus><br>
+            </div>
+            <div id="submit">
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky" name="btnI" aria-label="I'm Feeling Lucky">
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
