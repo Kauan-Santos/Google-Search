@@ -8,14 +8,20 @@
             @media (max-width: 699px) {
                 #submit input{
                     width: auto;
-                    margin-top: 20%;
+                    margin-top: 10%;
                 }
             }
             @media (max-width: 399px){
                 #submit input{
                     width: auto;
-                    margin-top: 20%;
+                    margin-top: 10%;
                     font-size: small;
+                }
+                #luck{
+                    display: none;
+                }
+                nav a{
+                    font-size: x-small;
                 }
             }
         </style>
@@ -33,7 +39,7 @@
             </div>
             <div id="submit">
                 <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky" name="btnI" aria-label="I'm Feeling Lucky">
+                <input id="luck" type="submit" value="I'm Feeling Lucky" name="btnI" aria-label="I'm Feeling Lucky">
             </div>
             </form>
         </div>
