@@ -82,9 +82,22 @@ header nav a{
         display: none;
     }
     .box input{
-        width: 70%;
+        width: 60%;
     }
     #to_do{
         display: none;
+    }
+    #button_search{
+        position: sticky;
+        text-align: center;
+        left: 65%;
+    }
+}
+@media (max-width: 600px){
+    .box input{
+        width: 40%;
+    }
+    #button_search{
+        left: 50%;
     }
 }
